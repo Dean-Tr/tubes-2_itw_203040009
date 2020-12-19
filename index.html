@@ -9,34 +9,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Dean T</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg text-uppercase">
+    <nav class="navbar fixed-top py-3 navbar-dark navbar-expand-lg text-uppercase">
         <div class="container">
-            <a class="navbar-brand font-weight-bold" href="#">Dean T</a>
+            <a class="navbar-brand font-weight-bold" href="#home">Dean T</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active ">
-                        <a class="nav-link px-lg-4 rounded" href="#">Home</a>
+                    <li class="nav-item active">
+                        <a class="nav-link px-lg-4 rounded" href="#home">Home</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link px-lg-4 rounded" href="#">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link px-lg-4 rounded" href="#about">About</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link px-lg-4 rounded" href="#">Skill</a>
+                    <li class="nav-item">
+                        <a class="nav-link px-lg-4 rounded" href="#services">Services</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link px-lg-4 rounded" href="#">Portfolio</a>
+                    <li class="nav-item">
+                        <a class="nav-link px-lg-4 rounded" href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link px-lg-4 rounded" href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link px-lg-4 rounded" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -45,23 +47,363 @@
 
 
     <!-- home -->
-    <section class="main py-5">
+    <section class="main py-5" id="home">
         <div class="container py-5">
             <div class="row py-5">
-                <div class="col-lg-6 py-5 text-light">
-                    <h3><small>Hallo, Saya</small> <br> Dean Tirta</h3>
+                <div class="col-lg-7 py-5 text-light">
+                    <h3><small>Hallo, Saya</small> <br> Dean Tirta Santika</h3>
                     <h6 class="pt-4">Mahasiswa UNPAS</h6>
-                    <input type="button" value="About Me" class="bt1 mt-3 mr-3">
+                    <a href="#about"><input type="button" value="About Me" class="bt1 mt-3 mr-3"></a>
                 </div>
             </div>
         </div>
     </section>
 
 
+    <!-- about -->
+    <section class="about py-5" id="about">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 text-center">
+                    <img src="assets/img/Dean.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="text-center">About Me</h1>
+                    <p class="text-center">Mahasiswa Universitas Pasundan</p>
+                    <p class="py-3">Saya <span class="font-weight-bold">Dean Tirta Santika</span>, mahasiswa Universitas
+                        Pasundan yang mengambil Prodi Teknik Informatika. Sekarang saya berada di semester 1 dan sedang
+                        belajar tentang cara membuat web, basis data, pola pikir komputasi dan masih banyak lagi. Tujuan
+                        saya membuat website ini adalah untuk tugas praktikum ke 2 dari pelajaran Internet dan Teknologi
+                        web.
+
+                        <div class="progress">
+                            <div class="pro-value1">
+                                <p>HTML<span class="text-white float-right">90%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value1">
+                                <p>CSS<span class="text-white float-right">90%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="pro-value3">
+                                <p>BOOTSTRAP<span class="text-white float-right">70%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value4">
+                                <p>JAVASCRIPT<span class="text-white float-right">40%</span></p>
+                            </div>
+                        </div>
+
+                        <a href="#contact"><input type="button" class="btn1 mt-5" value="Contact Me"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services -->
+    <section class="services py-5" id="services">
+        <div class="container py-5">
+            <h1 class="text-center text-white pb-5">Services</h1>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2 text-white">Web Design</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fab fa-android"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2 text-white">Android App</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-gamepad"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2 text-white">Game Development</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-video"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2 text-white">Video Editing</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-camera"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2 text-white">Photography</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-book-open"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2 text-white">Content Writing</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio -->
+    <section class="portfolio py-5 bg-light" id="portfolio">
+        <div class="container text-center py-5">
+            <h1 class="text-center pb-5">Portfolio</h1>
+            <div class="control">
+                <ul>
+                    <li class="button active" data-filter="filter">All</li>
+                    <li class="button active" data-filter="Brand">Brand</li>
+                    <li class="button active" data-filter="Design">Design</li>
+                    <li class="button active" data-filter="Graphic">Graphic</li>
+                </ul>
+            </div>
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="item mt-3">
+                        <img src="assets/img/product1.jpg" class="img-fluid filter Brand Design Graphic" alt="">
+                        <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal1"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item mt-3">
+                        <img src="assets/img/product2.jpg" class="img-fluid filter Brand Design Graphic" alt="">
+                        <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal2"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item mt-3">
+                        <img src="assets/img/product3.jpg" class="img-fluid filter Brand Design" alt="">
+                        <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal3"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="item mt-3">
+                        <img src="assets/img/product4.jpg" class="img-fluid filter Design" alt="">
+                        <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal4"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item mt-3">
+                        <img src="assets/img/product5.jpg" class="img-fluid filter" alt="">
+                        <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal5"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item mt-3">
+                        <img src="assets/img/product6.jpg" class="img-fluid filter" alt="">
+                        <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal6"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal1" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <img src="assets/img/product1.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal2" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <img src="assets/img/product2.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal3" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <img src="assets/img/product3.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal4" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <img src="assets/img/product4.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal5" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <img src="assets/img/product5.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal6" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <img src="assets/img/product6.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <section class="contact py-5" id="contact">
+        <div class="container py-5">
+            <h1 class="text-center text-white">Contact</h1>
+            <div class="row py-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                            </div>
+                            <h5 class="text-primary">Address</h5>
+                            <p class="text-white">Jl.Citere, Pangalengan, Bandung, 40378</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-mobile-alt"></i></span>
+                            </div>
+                            <h5 class="text-primary">Telp</h5>
+                            <p class="text-white">0812-1417-1543</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-envelope"></i></span>
+                            </div>
+                            <h5 class="text-primary">E-mail</h5>
+                            <p class="text-white">deantirtas@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light mb-3" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light mb-3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <textarea name="" id="" class="form-control bg-light" placeholder="Message" cols="30"
+                                    rows="10"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn3 my-4"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="py-5 text-center">
+        <p>Copyright 2020 &copy;Dean T All Rights Reserved</p>
+    </footer>
+
 
 
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button").click(function () {
+                var value = $(this).attr("data-filter");
+                if (value == "all") {
+                    $(".filter").snow("100");
+                } else {
+                    $(".filter").not("." + value).hide("1000");
+                    $(".filter").filter("." + value).show("1000");
+                }
+                $("ul .button").click(function () {
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
+            })
+        })
+    </script>
 </body>
 
 </html>
