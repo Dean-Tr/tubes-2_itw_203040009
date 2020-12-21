@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script type="text/javascript">
+        (function () {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.10.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
     <title>Dean T</title>
 </head>
 
@@ -388,7 +397,7 @@
 
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script>
+    <script type="text/javascript">
         $(document).ready(function () {
             $(".button").click(function () {
                 var value = $(this).attr("data-filter");
