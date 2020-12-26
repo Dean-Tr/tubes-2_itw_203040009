@@ -169,7 +169,7 @@ h1 {
     transition: 0.5s;
 }
 
-.services {
+.accounts {
     background-color: black;
 }
 
@@ -178,6 +178,10 @@ h1 {
     outline: none;
     background-color: rgb(37, 37, 37);
     box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .card p {
